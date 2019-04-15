@@ -1,0 +1,49 @@
+--- 
+dependencies: 
+  cupertino_icons: ^0.1.2
+  firebase_ml_vision: ^0.7.0
+  flutter_speed_dial: ^1.1.1
+  material_design_icons_flutter: 3.2.3595
+  flutter_launcher_icons: ^0.7.0
+
+  flutter: 
+    sdk: flutter
+  image_picker: ^0.5.3+1
+  url_launcher: ^5.0.2
+  
+description: "A new Flutter application."
+dev_dependencies: 
+  
+ 
+  flutter_test: 
+    sdk: flutter
+
+environment: 
+  sdk: ">=2.1.0 <3.0.0"
+flutter: 
+  uses-material-design: true
+  assets:
+    - image_labeling@2x.png
+    - download.png
+    - Untitled.png
+  fonts: 
+    - 
+      family: Bebas-Regular
+      fonts: 
+        - 
+          asset: fonts/Bebas-Regular.otf
+    - 
+      family: Roboto-Medium
+      fonts: 
+        - 
+          asset: fonts/Roboto-Medium.ttf
+name: box_number
+version: 1.0.0+1
+
+flutter_icons:
+#  image_path: "assets/images/icon-128x128.png"
+  image_path: "assets/Untitled.png"
+  
+  android: true # can specify file name here e.g. "ic_launcher"
+  
+  
